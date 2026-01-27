@@ -1,0 +1,59 @@
+ol {
+    list-style-type: none;
+    width: 150px;
+}
+
+ol li {
+    color: white;
+    text-align: center;
+    background-color: blue;
+    margin-bottom: 5px;
+
+    
+}
+
+
+ol li:hover{
+    outline: 3px solid red;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

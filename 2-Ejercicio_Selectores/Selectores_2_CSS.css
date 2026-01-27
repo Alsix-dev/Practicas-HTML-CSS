@@ -1,0 +1,59 @@
+.teal {
+    color: teal;
+}
+
+.red {
+     color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.orange {
+     color: orange;
+}
+
+.purple {
+     color: purple;
+}
+
+.olive{
+    color: olive;
+}
+
+.fuchsia{
+    color: fuchsia;
+}
+
+.green{
+    color: green;
+}
+
+#Tabla1 td:nth-child(2){
+    background-color: red;
+}
+
+#Tabla1 td:nth-child(3){
+    background-color: green;
+}
+
+#Tabla1 td:nth-child(4){
+    background-color: blue;
+}
+
+#Tabla1 > td + td{
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
