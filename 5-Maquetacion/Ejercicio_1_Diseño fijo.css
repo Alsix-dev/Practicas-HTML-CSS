@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.DatosLibro{
+    width: 260px;
+}
+
+.Descripcion{
+    width: 700px;
+}
+
+.DatosLibro, .Descripcion{
+    float: left;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+h2 {
+    margin: 15px 0px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.Descripcion p{
+    margin-bottom: 15px;
+}
+
+#Contenidos li{
+    width: 230px;
+    float: left;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 70%;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+/* General ----------------------------------------------------*/
+
+form {
+    background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+    display: grid;
+}
+
+form div {
+    padding: 5px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-auto-rows: auto;
+
+}
+
+form div h4 {
+    grid-column: 1 / -1;
+    grid-row: 1/2;
+    /*justify-self: start;        Es lo mismo que no agregar grid-row: 1/2 y agregar esta linea*/
+    width: 30%;     
+    text-align: right;
+}
+
+form input, label {
+    grid-column: 2;
+}
+
+
+form .NombreApellido {
+    display: grid;
+}
+
+form div button {
+    grid-column: 2/-1;
+}
+
+form div label {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Direccion ----------------------------------------------------*/
+.Direccion{
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+}
+
+.Direccion label:nth-of-type(1){
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.Direccion label:nth-of-type(2){
+    grid-column: 2/3;
+    grid-row: 3/4; 
+}
+.Direccion label:nth-of-type(3){
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.Direccion label:nth-of-type(4){
+    grid-column: 2/3;
+    grid-row: 4/5; 
+}
+
+.Direccion label:nth-of-type(5){
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+
+/* Telefono ----------------------------------------------------*/ 
+.Telefono {
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+}
+
+.Telefono label:nth-of-type(1){
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+
+.Telefono label:nth-of-type(2){
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+
+/* Diseño General ----------------------------------------------------*/
+
+div:hover:not(.Registro):not(:focus-within){
+    background-color: rgb(248, 248, 115);
+}
+
+div label input:hover, input:focus{
+    outline: 1px solid red;
+}
+
+div label input{
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    margin-right: 150px;
+}
+
+
+
+div button{
+    width: 100px;
+    justify-self: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
